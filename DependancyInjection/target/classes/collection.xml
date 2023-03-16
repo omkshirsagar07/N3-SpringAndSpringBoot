@@ -8,14 +8,25 @@
 <!-- bean definitions here -->
 
 
-<bean id = "c1" class = "org.tnsif.objectsInjection.charger">
-<property name ="brand" value ="MI"/>
-<property name ="volt" value ="64" />
-<property name ="type" value ="type-c"/>
-</bean>
+<bean id = "collection" class = "org.tnsif.collection.CollectionDemo">
+<property name="contactNo" >
+	<list>
+		<value>1122336655</value>
+		<value>4455663312</value>
+		<value>8899775566</value>
+		<value>0033225588</value>
+	</list>
+</property>
 
-<bean id ="c2" class ="org.tnsif.objectsInjection.cellPhone">
-<property name = "c" ref = "c1"/>
+<property name="Books" >
+	<set>
+		<value>"yayati"</value>
+		<value>"GHatktkach"</value>
+		<value>"atmaram tukaram bhide"</value>
+		<value>"Jethalal champaklal gada"</value>
+	</set>
+</property>
+
 </bean>
 
 

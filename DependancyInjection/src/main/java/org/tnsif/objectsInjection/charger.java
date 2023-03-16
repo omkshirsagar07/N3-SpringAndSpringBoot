@@ -2,7 +2,7 @@ package org.tnsif.objectsInjection;
 
 public class charger {
 	private String Brand;
-	private String volt;
+	private int volt;
 	private String type;
 	public String getBrand() {
 		return Brand;
@@ -10,10 +10,10 @@ public class charger {
 	public void setBrand(String brand) {
 		Brand = brand;
 	}
-	public String getVolt() {
+	public int getVolt() {
 		return volt;
 	}
-	public void setVolt(String volt) {
+	public void setVolt(int volt) {
 		this.volt = volt;
 	}
 	public String getType() {
@@ -27,5 +27,9 @@ public class charger {
 		return "charger [Brand=" + Brand + ", volt=" + volt + ", type=" + type + "]";
 	}
 	
+	public void power()
+	{
+		System.out.println("Brand=" + Brand + ", volt=" + volt + " ,type=" + type);
+	}
 	
 }
