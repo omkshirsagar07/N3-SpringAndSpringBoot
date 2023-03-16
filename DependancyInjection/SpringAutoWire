@@ -1,0 +1,2 @@
+#Autowire are use to make Dependancies more easier ---- directly injecting properties
+# ---- by using  ->  1)@autowire 2) autowire property
