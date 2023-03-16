@@ -1,0 +1,6 @@
+# spring ioc : - loose coupling between objects
+
+#Dependancy Injection:
+	Type of dependancies:
+		1)using setter 
+		2) using constructor 
